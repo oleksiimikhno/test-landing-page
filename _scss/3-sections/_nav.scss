@@ -14,6 +14,9 @@
         color: var(--primary-color);
         font-weight: 700;
         text-decoration: none;
+        @media only screen and (max-width: 62em){
+            color: var(--invert-color);
+          }  
     }
     .scroll{
         position: relative;
@@ -33,8 +36,10 @@
     content: '';
     width: 30px;
     border-bottom: 2px solid var(--primary-color);
+
 }
 .nav.nav-active a, .nav.nav-active a:after{
     color: var(--invert-color);
     border-color: red ;
+
 }

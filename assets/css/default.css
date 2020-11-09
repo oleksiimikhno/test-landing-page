@@ -1716,6 +1716,9 @@ ul {
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: none; }
+    @media only screen and (max-width: 62em) {
+      .nav a {
+        color: var(--invert-color); } }
   .nav .scroll {
     position: relative; }
   .nav .scroll.active {
@@ -1793,6 +1796,9 @@ section:nth-of-type(odd) {
   font-family: "Aleo"; }
 
 #section-5 .tns-nav {
+  display: none; }
+
+#section-5 #tns2-ow > button {
   display: none; }
 
 #section-5 .my-slider2 {
