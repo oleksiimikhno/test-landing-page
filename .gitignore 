@@ -1,0 +1,6 @@
+.hidden
+.gitignore 
+.sass-cache
+.git
+_site
+node_modules

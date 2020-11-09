@@ -13,10 +13,10 @@ ul,.description, .btn-header{
 
 @font-face {
     font-family: 'MyriadProRegular';
-    src: url("/assets/fonts/MyriadPro/MyriadProRegular.eot");
-    src: url("/assets/fonts/MyriadPro/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("/assets/fonts/MyriadPro/MyriadProRegular.woff") format("woff"),
-    url("/assets/fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
+    src: url("{{ site.github.url }}/assets/fonts/MyriadPro/MyriadProRegular.eot");
+    src: url("{{ site.github.url }}/assets/fonts/MyriadPro/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("{{ site.github.url }}/assets/fonts/MyriadPro/MyriadProRegular.woff") format("woff"),
+    url("{{ site.github.url }}/assets/fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -26,11 +26,11 @@ ul,.description, .btn-header{
 }
 @font-face {
     font-family: 'Baufra';
-    src: url("/assets/fonts/Baufra/Baufra-Bold.eot");
-    src: url("/assets/fonts/Baufra/Baufra-Bold.eot?#iefix")format("embedded-opentype"),
-    url("/assets/fonts/Baufra/Baufra-Bold.woff") format("woff"),
-    url("/assets/fonts/Baufra/Baufra-Bold.woff2") format("woff2"),
-    url("/assets/fonts/Baufra/Baufra-Bold.ttf") format("truetype");
+    src: url("{{ site.github.url }}/assets/fonts/Baufra/Baufra-Bold.eot");
+    src: url("{{ site.github.url }}/assets/fonts/Baufra/Baufra-Bold.eot?#iefix")format("embedded-opentype"),
+    url("{{ site.github.url }}/assets/fonts/Baufra/Baufra-Bold.woff") format("woff"),
+    url("{{ site.github.url }}/assets/fonts/Baufra/Baufra-Bold.woff2") format("woff2"),
+    url("{{ site.github.url }}/assets/fonts/Baufra/Baufra-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap;
