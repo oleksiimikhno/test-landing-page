@@ -1,0 +1,47 @@
+.logo{
+    height: 100%;
+    padding: 10px 0px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 58px;
+    font-weight: bold;
+}
+.search{
+    margin-right: 25px;
+    @media only screen and (max-width: 62em) {
+        margin-right: 0px;
+    }
+}
+.total{
+    margin-left: 10px;
+}
+.btn-menu{
+    position: relative;
+    display: inline-block;
+    &:hover >.user-menu,&:focus >.user-menu{
+        display: block;
+    }
+}
+.user-menu{
+    position: absolute;
+    display: none;
+    width: 130px;
+    background-color: var(--primary-color);
+    z-index: 2;
+    right: -15px;
+    ul{
+        padding: 0;
+    }
+    a{
+        display: inline-block;
+        padding: 10px 0px;
+        width: 100%;
+        font-size: 14px;
+        color: var(--invert-color);
+        text-decoration: none;
+        &:hover,&:focus{
+            background-color: var(--section-bg-c);
+            font-weight: 700;
+        }
+    }
+}

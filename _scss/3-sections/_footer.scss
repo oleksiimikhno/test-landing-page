@@ -1,0 +1,15 @@
+.contact{
+    border-top: 1px var(--border-footer) solid;
+    border-bottom: 1px var(--border-footer) solid;
+    button{
+        margin: 30px;
+    }
+}
+footer{
+    .logo{
+        padding-top: 30px;
+    }
+    .list-link{
+        justify-content: end;
+    }
+}

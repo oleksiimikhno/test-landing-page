@@ -1,0 +1,48 @@
+<nav class="nav">
+    <ul class="list-unstyled">
+        <li><a href="#section-0" class="scroll">01</a></li>
+        <li><a href="#section-1" class="scroll">02</a></li>
+        <li><a href="#section-2" class="scroll">03</a></li>
+        <li><a href="#section-3" class="scroll">04</a></li>
+        <li><a href="#section-4" class="scroll">05</a></li>
+        <li><a href="#section-5" class="scroll">06</a></li>
+        <li><a href="#section-6" class="scroll">07</a></li>
+    </ul>
+</nav>    
+<script>
+    const anchors = document.querySelectorAll('a.scroll')
+    
+    for (let anchor of anchors) {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+    
+        const blockId = anchor.getAttribute('href')
+        
+        document.querySelector(blockId).scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        })
+    
+        const target = e.target
+        Array.from(anchors).forEach(anchor => {
+            anchor.classList.remove('active');
+        })
+        target.classList.add('active');
+    
+      })
+    }
+    
+      let scrollpos = window.scrollY
+      const nav = document.querySelector('nav')
+      const heightActive = 200;
+    
+      const addClassScroll = () => nav.classList.add('nav-active')
+      const removeClassScroll = () => nav.classList.remove('nav-active')
+    
+      window.addEventListener('scroll', function() { 
+        scrollpos = window.scrollY;
+    
+        if (scrollpos >= heightActive) { addClassScroll() }
+        else { removeClassScroll() }
+      })
+    </script>

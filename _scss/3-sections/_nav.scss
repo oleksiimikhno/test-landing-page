@@ -1,0 +1,40 @@
+.nav{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    z-index: 3;
+
+    li{
+        position: relative;
+    }
+    a{
+        display: block;
+        padding: 10px 20px ;
+        text-align: center;
+        color: var(--primary-color);
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .scroll{
+        position: relative;
+    }
+    .scroll.active {
+        position: relative;
+        right: 20px;
+    }
+
+}
+
+.nav a.active:after{
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    bottom: 50%;
+    content: '';
+    width: 30px;
+    border-bottom: 2px solid var(--primary-color);
+}
+.nav.nav-active a, .nav.nav-active a:after{
+    color: var(--invert-color);
+    border-color: red ;
+}

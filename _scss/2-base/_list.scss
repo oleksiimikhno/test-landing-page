@@ -1,0 +1,55 @@
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    @media only screen and (max-width: 576px){
+        padding: 0px 15px 0px;
+    }  
+}
+.list-unstyled{
+    list-style: none;
+    counter-reset: custom-counter;
+}
+.list-custom{
+    @media only screen and (max-width: 576px){
+        text-align: center;
+    }  
+    img{
+        margin-top: 25px;
+        @media only screen and (max-width: 576px){
+            display: block;
+            margin: 0 auto;
+        }  
+    }
+}
+.list-number li{
+    display: flex;
+    position: relative;
+    counter-increment: custom-counter;
+}
+.list-number li::before {
+    margin:5px 20px 0px 0px;
+    content: "0" counter(custom-counter);
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Abril Fatface";
+}
+
+.list-link{
+    display: flex;
+    
+    li{
+        padding:40px 20px;
+    }
+    a{
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: var(--invert-color);
+        text-decoration: none;
+        &:hover{
+            font-weight: 700;
+        }
+    }
+}

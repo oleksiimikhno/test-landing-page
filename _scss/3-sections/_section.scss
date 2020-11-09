@@ -1,0 +1,126 @@
+section:nth-of-type(odd){
+    background-color: var(--section-bg-c);
+}
+#section-1{
+    position: relative;
+    .img-wrapper{
+        position: relative;
+    
+        @media only screen and (max-width: 576px){
+            width: 100%;
+            height: 600px;
+            background-image: url(/assets/img/section/section1.jpg);
+            background-size: cover;
+        }
+        h1{
+            position: absolute;
+            top: 30%;
+            right: -40px;
+            @media only screen and (max-width: 576px){
+                position: absolute;
+                display: block;
+                text-align: center;
+                top: 0;
+                right: 0;
+            }
+        }
+        img{
+            margin-top: 30%;
+            @media only screen and (max-width: 576px){
+                display: none;
+            }
+        }
+    }
+    ul{
+        @media only screen and (max-width: 576px){
+            margin-top: 150px;
+            padding: 0px 15px 0px;
+            position: absolute ;
+            background-color: var(--invert-color-op2);
+        }          
+    }
+}
+#section-3{
+    .second-title{
+        padding-left: 25px;
+    }
+}
+#section-4{
+    .bg-img{
+        background-repeat: no-repeat;
+        background-position: -390px;
+    }
+    .bg-img-1{
+        background-image: url(/assets/img/section/section2-1.jpg);
+    }
+    .bg-img-2{
+        background-image: url(/assets/img/section/section2-2.jpg);
+    }
+    .section-4__title{ 
+        display: block;
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 32px;
+        font-family: "Aleo";
+    }
+}
+#section-5{
+
+    .tns-nav{
+        display: none;
+    }
+
+    .my-slider2  {
+        display: flex;
+        .tns-item{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            span{
+                position: relative;
+            }
+            .profile__job{
+                margin: 50px 0px;
+            }
+        }
+    }
+    .profile__name, .description{
+        text-align: center;
+    }
+    .profile__job{
+        display: block;
+        margin-top: 40px;
+        &:after{
+            display: block;
+            content: ',,';
+            font-family: "Baufra";
+            font-size: 120px;
+            letter-spacing: 3px;
+            line-height: 26px;
+            color: #000000;
+            @media only screen and (max-width: 576px){
+                display: none;
+            }
+        }
+    }
+}
+#section-6{
+    .wrapper-text{
+        background-color: var(--theme-color);
+        z-index: 2;
+    }
+}
+.s-wrapper{
+    position: relative;
+    overflow: hidden;
+    img{
+        position: absolute;
+        right: 0;
+        height: 100%;
+        max-width: 60%;
+        @media only screen and (max-width: 75em){
+            display: none;
+        }  
+    }
+}
