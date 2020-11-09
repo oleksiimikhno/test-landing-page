@@ -1707,6 +1707,9 @@ ul {
   right: 0;
   top: 20%;
   z-index: 3; }
+  @media only screen and (max-width: 62em) {
+    .nav {
+      top: 25; } }
   .nav li {
     position: relative; }
   .nav a {

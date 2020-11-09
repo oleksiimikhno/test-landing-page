@@ -3,7 +3,9 @@
     right: 0;
     top: 20%;
     z-index: 3;
-
+    @media only screen and (max-width: 62em){
+        top: 25;
+      }  
     li{
         position: relative;
     }
