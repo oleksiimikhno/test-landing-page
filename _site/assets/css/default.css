@@ -1530,8 +1530,8 @@ ul, .description, .btn-header {
 
 @font-face {
   font-family: 'MyriadProRegular';
-  src: url("/assets/fonts/MyriadPro/MyriadProRegular.eot");
-  src: url("/assets/fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/MyriadPro/MyriadProRegular.woff") format("woff"), url("/assets/fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
+  src: url("/rr/assets/fonts/MyriadPro/MyriadProRegular.eot");
+  src: url("/rr/assets/fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("/rr/assets/fonts/MyriadPro/MyriadProRegular.woff") format("woff"), url("/rr/assets/fonts/MyriadPro/MyriadProRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   font-display: swap; }
@@ -1541,8 +1541,8 @@ ul, .description, .btn-header {
 
 @font-face {
   font-family: 'Baufra';
-  src: url("/assets/fonts/Baufra/Baufra-Bold.eot");
-  src: url("/assets/fonts/Baufra/Baufra-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Baufra/Baufra-Bold.woff") format("woff"), url("/assets/fonts/Baufra/Baufra-Bold.woff2") format("woff2"), url("/assets/fonts/Baufra/Baufra-Bold.ttf") format("truetype");
+  src: url("/rr/assets/fonts/Baufra/Baufra-Bold.eot");
+  src: url("/rr/assets/fonts/Baufra/Baufra-Bold.eot?#iefix") format("embedded-opentype"), url("/rr/assets/fonts/Baufra/Baufra-Bold.woff") format("woff"), url("/rr/assets/fonts/Baufra/Baufra-Bold.woff2") format("woff2"), url("/rr/assets/fonts/Baufra/Baufra-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   font-display: swap; }
@@ -1746,7 +1746,7 @@ section:nth-of-type(odd) {
       #section-1 .img-wrapper {
         width: 100%;
         height: 600px;
-        background-image: url(/assets/img/section/section1.jpg);
+        background-image: url(/rr/assets/img/section/section1.jpg);
         -webkit-background-size: cover;
                 background-size: cover; } }
     #section-1 .img-wrapper h1 {
@@ -1780,10 +1780,10 @@ section:nth-of-type(odd) {
   background-position: -390px; }
 
 #section-4 .bg-img-1 {
-  background-image: url(/assets/img/section/section2-1.jpg); }
+  background-image: url(/rr/assets/img/section/section2-1.jpg); }
 
 #section-4 .bg-img-2 {
-  background-image: url(/assets/img/section/section2-2.jpg); }
+  background-image: url(/rr/assets/img/section/section2-2.jpg); }
 
 #section-4 .section-4__title {
   display: block;
